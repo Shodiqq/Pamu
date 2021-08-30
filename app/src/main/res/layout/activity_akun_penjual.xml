@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".akun_penjual">
+    <!--awal profile-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/fotoprofile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Afif Hanifudin"
+                android:fontFamily="@font/pmedium"
+                android:textSize="20sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/primary_text"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="90dp"
+                android:src="@drawable/chat"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/setting"/>
+
+        </LinearLayout>
+        <!-- toko awal -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="98dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toko Diikuti"
+                    android:fontFamily="@font/pregular"
+                    android:textSize="12sp"
+                    android:textColor="@color/body"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="10"
+                    android:fontFamily="@font/pmedium"
+                    android:textSize="14sp"
+                    android:textColor="@color/primary_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daftar Keinginan"
+                    android:fontFamily="@font/pregular"
+                    android:textSize="12sp"
+                    android:textColor="@color/body"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="14"
+                    android:fontFamily="@font/pmedium"
+                    android:textSize="14sp"
+                    android:textColor="@color/primary_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Voucher"
+                    android:fontFamily="@font/pregular"
+                    android:textSize="12sp"
+                    android:textColor="@color/body"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="2"
+                    android:fontFamily="@font/pmedium"
+                    android:textSize="14sp"
+                    android:textColor="@color/primary_text"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--toko akhir-->
+    </LinearLayout>
+
+    <!--akhir profile-->
+
+    <!--Awal Button-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="94dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Pembeli"
+            android:fontFamily="@font/pmedium"
+            android:textSize="14sp"
+            android:background="@drawable/stroke_blue"
+            android:textColor="@color/primary"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="94dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="24dp"
+            android:background="@drawable/rounded"
+            android:text="Penjual"
+            android:fontFamily="@font/pmedium"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <!--Akhir Button-->
+    <!--    Produk Favorite-->
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="63dp"
+        android:background="@color/white"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/toko"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="21dp"
+            android:text="Buat Toko"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/pmedium"
+            android:textColor="@color/primary_text"
+            android:textSize="14dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/stroke">
+            <ImageView
+                android:id="@+id/pnj_buatToko"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/add"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:clickable="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="63dp"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/statistik"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="21dp"
+            android:text="Statistik Penjualan"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/pmedium"
+            android:textColor="@color/primary_text"
+            android:textSize="14dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/stroke">
+            <ImageView
+                android:id="@+id/pnj_statistik"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/foward"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:clickable="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="63dp"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/laporan"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="21dp"
+            android:text="Laporan Keuangan"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/pmedium"
+            android:textColor="@color/primary_text"
+            android:textSize="14dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/stroke">
+            <ImageView
+                android:id="@+id/pnj_laporan"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/foward"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:clickable="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--    Akhir Produk Favorite-->
+</LinearLayout>

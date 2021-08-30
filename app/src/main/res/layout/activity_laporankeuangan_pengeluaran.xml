@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".laporankeuangan_pengeluaran"
+    android:background="@color/bg">
+
+    <!--    App bar top -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tb_back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laporan Keuangan"
+            android:fontFamily="@font/pmedium"
+            android:textSize="16dp"
+            android:textColor="@color/primary"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+
+    <!--    container -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pemasukan"
+                android:textAllCaps="false"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/pmedium"
+                android:textSize="14sp"
+                android:background="@drawable/rounded">
+            </Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="Pengeluaran"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:fontFamily="@font/pmedium"
+                android:textSize="14sp"
+                android:textColor="@color/primary"
+                android:background="@drawable/stroke">
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nominal Penjualan"
+                android:fontFamily="@font/pregular"
+                android:textSize="14sp"
+                android:textColor="@color/body">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp2000.000"
+                android:fontFamily="@font/pmedium"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/primary_text">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/pmedium"
+            android:text="Beban"
+            android:textColor="@color/primary_text"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pregular"
+                android:text="Atur Transaksi"
+                android:textColor="@color/body"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/kalender"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pregular"
+                android:text="Kategori Beban"
+                android:textColor="@color/body"
+                android:textSize="12sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:background="@drawable/rounded_corner"
+                android:fontFamily="@font/pmedium"
+                android:text="Tambah"
+                android:textAllCaps="false"
+                android:textSize="14sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="326dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/stroke">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="@font/pregular"
+                android:text="Sewa dan Utilitas"
+                android:textColor="@color/primary_text"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="140dp"
+                android:src="@drawable/delete"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="326dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/stroke">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="@font/pregular"
+                android:text="Sewa dan Utilitas"
+                android:textColor="@color/primary_text"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="140dp"
+                android:src="@drawable/delete"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="326dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/stroke">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="@font/pregular"
+                android:text="Sewa dan Utilitas"
+                android:textColor="@color/primary_text"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="140dp"
+                android:src="@drawable/delete">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="39dp"
+            android:text="Tambah Transaksi"
+            android:textAllCaps="false"
+            android:layout_marginTop="21dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/primary"
+            android:background="@drawable/stroke_blue">
+        </TextView>
+
+        <Button
+            android:id="@+id/lp_simpan"
+            android:layout_width="175dp"
+            android:layout_height="39dp"
+            android:text="Simpan"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="14sp"
+            android:background="@drawable/rounded">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

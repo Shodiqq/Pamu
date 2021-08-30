@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".Pesan">
+
+    <!--    App bar top -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tb_back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesan"
+            android:fontFamily="@font/pmedium"
+            android:textSize="16dp"
+            android:textColor="@color/primary"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+    <!--Akhir App Bar Top-->
+
+    <!--Awal Menu Pesan-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:orientation="horizontal"
+        android:paddingTop="24dp"
+        android:background="@color/white"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/chat"/>
+
+            <TextView
+                android:id="@+id/chats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chat"
+                android:textColor="@color/primary"
+                android:fontFamily="@font/pregular"
+                android:textSize="14sp"
+                android:clickable="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/toko2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pesanan"
+                android:textColor="@color/primary"
+                android:fontFamily="@font/pregular"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/promo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Promo"
+                android:textColor="@color/primary"
+                android:fontFamily="@font/pregular"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/request"/>
+
+            <TextView
+                android:id="@+id/permintaan_pembeli"
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:text="Permintaan Pembeli"
+                android:textAlignment="center"
+                android:textColor="@color/primary"
+                android:fontFamily="@font/pregular"
+                android:textSize="14sp"
+                android:clickable="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--Akhir Menu Pesan-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produk Paling Laku"
+        android:fontFamily="@font/pmedium"
+        android:textSize="14sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/primary_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="8dp">
+
+        <!-- Awal Produk-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minggu ini"
+                android:fontFamily="@font/pregular"
+                android:textSize="12sp"
+                android:textColor="@color/primary_text"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4, September 2020"
+                android:fontFamily="@font/pmedium"
+                android:textSize="12sp"
+                android:textColor="@color/body"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/nasigoreng"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/kupat"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/patung"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/snerek"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/jajan"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/snack"/>
+
+        </LinearLayout>
+
+        <!-- Akhir Produk-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="411dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="130dp"
+            android:layout_gravity="bottom">
+            <ImageView
+                android:id="@+id/psn_home"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="49dp"
+                android:src="@drawable/home"
+                android:clickable="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:layout_marginLeft="31dp"
+                android:text="Beranda"
+                android:fontFamily="@font/pregular"
+                android:textColor="@color/body"
+                android:textSize="14sp"/>
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="151dp"
+                android:src="@drawable/chat_fill"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:layout_marginLeft="142dp"
+                android:text="Pesan"
+                android:fontFamily="@font/pregular"
+                android:textColor="@color/primary"
+                android:textSize="14sp"/>
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="257dp"
+                android:src="@drawable/shopping"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:layout_marginLeft="232dp"
+                android:text="Keranjang"
+                android:fontFamily="@font/pregular"
+                android:textColor="@color/body"
+                android:textSize="14sp"/>
+            <ImageView
+                android:id="@+id/psn_akun"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="351dp"
+                android:src="@drawable/user"
+                android:clickable="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:layout_marginLeft="345dp"
+                android:text="Akun"
+                android:fontFamily="@font/pregular"
+                android:textColor="@color/body"
+                android:textSize="14sp"
+                android:clickable="true"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

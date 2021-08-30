@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".PermintaanPembeli">
+
+    <!--    App bar top -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tb_back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Permintaan Pembeli"
+            android:fontFamily="@font/pmedium"
+            android:textSize="16dp"
+            android:textColor="@color/primary"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+    <!--Akhir App Bar Top-->
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="700dp">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Awal Konten 2-->
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="550dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="324dp"
+                    android:layout_height="92dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/user1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/pmedium"
+                            android:text="Restaurant Petrobangsan"
+                            android:textColor="@color/primary_text"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/pmedium"
+                            android:text="4, September 2020"
+                            android:textColor="@color/body"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="81dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/stroke"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="16dp">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:src="@drawable/kalender" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="100dp"
+                            android:fontFamily="@font/pregular"
+                            android:text="10, September 2020"
+                            android:textColor="@color/primary_text"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="16dp">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:src="@drawable/toko2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="100dp"
+                            android:fontFamily="@font/pregular"
+                            android:text="Sayur dan Buah"
+                            android:textColor="@color/primary_text"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/pmedium"
+                    android:text="Deskipsi"
+                    android:textColor="@color/body"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/pregular"
+                    android:text="Hallo umkm Magelang, saat ini restaurant kami sedang membutuhkan sayuran dan buah buahan sebagai persediaan untuk beberapa hari kedepan. Untuk melihat detail barang yang ingin kami beli bisa klik “kirim penawaran” dibawah ini. Terima kasih"
+                    android:textColor="@color/primary_text"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="@font/pregular"
+                    android:text="1/20 Permintaan"
+                    android:textColor="@color/primary_text"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="260dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="@font/pmedium"
+                    android:text="Kirim Tawaran"
+                    android:textAllCaps="false"
+                    android:textSize="14sp">
+
+                </Button>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="550dp"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="324dp"
+                    android:layout_height="92dp"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/user1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Restaurant Petrobangsan"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/pmedium"
+                            android:textColor="@color/primary_text"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4, September 2020"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/pmedium"
+                            android:textColor="@color/body"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="81dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/stroke">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="16dp">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:src="@drawable/kalender"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10, September 2020"
+                            android:fontFamily="@font/pregular"
+                            android:textSize="12sp"
+                            android:textColor="@color/primary_text"
+                            android:layout_marginLeft="100dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="16dp">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:src="@drawable/toko2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sayur dan Buah"
+                            android:fontFamily="@font/pregular"
+                            android:textSize="12sp"
+                            android:textColor="@color/primary_text"
+                            android:layout_marginLeft="100dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deskipsi"
+                    android:fontFamily="@font/pmedium"
+                    android:textSize="12sp"
+                    android:textColor="@color/body"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="24dp"/>
+
+                <TextView
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:text="Hallo umkm Magelang, saat ini restaurant kami sedang membutuhkan sayuran dan buah buahan sebagai persediaan untuk beberapa hari kedepan. Untuk melihat detail barang yang ingin kami beli bisa klik “kirim penawaran” dibawah ini. Terima kasih"
+                    android:fontFamily="@font/pregular"
+                    android:textSize="12sp"
+                    android:textColor="@color/primary_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2/20 Permintaan"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="120dp"
+                    android:fontFamily="@font/pregular"
+                    android:textSize="12sp"
+                    android:textColor="@color/primary_text"/>
+
+                <Button
+                    android:layout_width="260dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Kirim Tawaran"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/pmedium"
+                    android:textSize="14sp"
+                    android:background="@drawable/rounded">
+
+                </Button>
+
+            </LinearLayout>
+
+
+            <!--Akhir Konten 2-->
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

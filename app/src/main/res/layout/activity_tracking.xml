@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Tracking">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="823dp"
+                android:src="@drawable/map_fix"
+                android:scaleType="fitCenter"/>
+            <Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:outlineSpotShadowColor="@color/body">
+                <ImageButton
+                    android:id="@+id/trc_back"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/tb_back"
+                    android:background="@color/white"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Pelacakan Pesanan"
+                    android:fontFamily="@font/pmedium"
+                    android:textSize="14sp"
+                    android:textColor="@color/primary_text"
+                    android:textAlignment="center"/>
+            </Toolbar>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="242dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="525dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/pregular"
+                    android:text="Barang Dikirim:"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="49dp"
+                    android:src="@drawable/nasi_circle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="49dp"
+                    android:fontFamily="@font/pmedium"
+                    android:text="Nasi Goreng"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="75dp"
+                    android:src="@drawable/map" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="114dp"
+                    android:layout_marginTop="73dp"
+                    android:fontFamily="@font/pregular"
+                    android:text="Mertoyudan"
+                    android:textColor="@color/body"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="317dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="123dp"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="143dp"
+                    android:fontFamily="@font/pregular"
+                    android:text="Pengantar :"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="172dp"
+                    android:src="@drawable/foto" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="172dp"
+                    android:fontFamily="@font/pmedium"
+                    android:text="Nasiruddin Rozaq"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp" />
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

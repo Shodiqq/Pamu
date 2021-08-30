@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".laba">
+
+    <!--    App bar top -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tb_back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laporan Keuangan"
+            android:fontFamily="@font/pmedium"
+            android:textSize="16dp"
+            android:textColor="@color/primary"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laba Penjualan"
+            android:fontFamily="@font/pmedium"
+            android:textSize="14sp"
+            android:textColor="@color/primary_text"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="20dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="111dp"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/stroke"
+                android:layout_marginStart="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp7000.000"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="@font/pmedium"
+                    android:textSize="18dp"
+                    android:textColor="@color/primary_text"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pemasukan"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/pregular"
+                    android:textSize="12dp"
+                    android:textColor="@color/body"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="111dp"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/stroke">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp2000.000"
+                    android:layout_marginTop="32dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/pmedium"
+                    android:textSize="18dp"
+                    android:textColor="@color/primary_text"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengeluaran"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/pregular"
+                    android:textSize="12dp"
+                    android:textColor="@color/body"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keuntungan"
+            android:layout_gravity="center"
+            android:fontFamily="@font/pmedium"
+            android:textSize="14sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/body"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp5000.000"
+            android:fontFamily="@font/pmedium"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"
+            android:textColor="@color/primary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keuntungan"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="14sp"
+            android:textColor="@color/body"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cetak Laporan"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/rounded">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Riwayat Laporan"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/pmedium"
+            android:textColor="@color/primary_text"/>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@drawable/stroke"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Riwayat Laporan"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:fontFamily="@font/pmedium"
+                android:textColor="@color/body"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keuntungan"
+                android:layout_marginLeft="60dp"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:fontFamily="@font/pmedium"
+                android:textColor="@color/body"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1, September 2020"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp400.000"
+                android:layout_marginLeft="20dp"
+                android:textSize="14sp"
+                android:fontFamily="@font/pmedium"
+                android:textColor="@color/primary_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp50.000"
+                android:layout_marginLeft="110dp"
+                android:textSize="14sp"
+                android:fontFamily="@font/pmedium"
+                android:textColor="@color/primary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp400.000"
+                android:layout_marginLeft="20dp"
+                android:textSize="14sp"
+                android:fontFamily="@font/pmedium"
+                android:textColor="@color/primary_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp50.000"
+                android:layout_marginLeft="110dp"
+                android:textSize="14sp"
+                android:fontFamily="@font/pmedium"
+                android:textColor="@color/primary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tambah Transaksi"
+                android:textAllCaps="false"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_marginTop="24dp"
+                android:paddingBottom="8dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/pmedium"
+                android:textSize="14sp"
+                android:background="@drawable/rounded">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simpan"
+                android:textAllCaps="false"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:layout_marginTop="24dp"
+                android:paddingBottom="8dp"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/pmedium"
+                android:textSize="14sp"
+                android:background="@drawable/rounded">
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

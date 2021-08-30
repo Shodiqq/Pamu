@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".OnBoarding_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:outlineSpotShadowColor="@color/body">
+            <ImageButton
+                android:id="@+id/ob2_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/tb_back"
+                android:background="@color/white"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="16dp"
+                android:text="Kembali"
+                android:fontFamily="@font/pmedium"
+                android:textSize="16sp"
+                android:textColor="@color/primary"
+                android:textAlignment="center"/>
+        </Toolbar>
+
+        <ImageView
+            android:layout_width="404dp"
+            android:layout_height="306dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/img_ob2"/>
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="24dp"
+            android:text="Jual produk UMKM disini"
+            android:fontFamily="@font/pregular"
+            android:textSize="24sp"
+            android:textColor="@color/primary_text"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="371dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="16dp"
+            android:text="Tentukan produk anda dan nikmati keuntungan bisnis anda bersama kami"
+            android:maxLines="2"
+            android:fontFamily="@font/pregular"
+            android:textSize="14sp"
+            android:textColor="@color/body"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="101dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Skip"
+                android:textColor="@color/primary"
+                android:fontFamily="@font/pregular"
+                android:textSize="14sp"
+                android:clickable="true"/>
+            <Button
+                android:id="@+id/ob2_masuk"
+                android:layout_width="89dp"
+                android:layout_height="39dp"
+                android:layout_marginLeft="259dp"
+                android:background="@drawable/rounded_corner"
+                android:text="Masuk"
+                android:textAllCaps="false"
+                android:fontFamily="@font/pmedium"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

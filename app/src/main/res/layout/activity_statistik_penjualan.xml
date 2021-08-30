@@ -1,0 +1,419 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".StatistikPenjualan">
+
+    <!--    Top Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tb_back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Statistik Penjualan"
+            android:fontFamily="@font/pmedium"
+            android:textSize="16dp"
+            android:textColor="@color/primary"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+    <!--    Akhir -->
+
+    <!--    Awal Detail Statistik-->
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="411dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="149dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/pregular"
+            android:text="Pendapatan Anda"
+            android:textColor="@color/body"
+            android:textSize="12dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="134dp"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/pmedium"
+            android:text="Rp 7000.000"
+            android:textColor="@color/primary_text"
+            android:textSize="24dp">
+        </TextView>
+
+        <!--        linear presentase-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garisnaik">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="@font/pregular"
+                android:text="Naik"
+                android:textColor="@color/body"
+                android:textSize="12dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="@font/pmedium"
+                android:text="24,5%"
+                android:textColor="@color/primary"
+                android:textSize="12dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <!--        Akhir Presentase-->
+
+        <!--       Awal Bulan -->
+        <LinearLayout
+            android:layout_width="77dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="314dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/stroke">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bulan"
+                android:layout_marginLeft="9dp"
+                android:fontFamily="@font/pmedium"
+                android:textSize="12dp"
+                android:textColor="@color/body">
+            </TextView>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/dropdown">
+            </ImageView>
+
+        </LinearLayout>
+        <!--        Akhir Bulan-->
+
+        <!--Gambar Stastik-->
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="203dp"
+            android:src="@drawable/detailstatistik"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp">
+
+        </ImageView>
+        <!--        End Gambar-->
+    </LinearLayout>
+    <!--Akhir Detail Statisik-->
+
+    <!--    Awal Pesanan-->
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesanan Terbaru"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="14sp"
+            android:textColor="@color/primary_text">
+        </TextView>
+
+        <!--Awal Konten Pesanan Terbaru-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconnasigoreng"
+                android:layout_marginLeft="20dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nasi Goreng"
+                    android:fontFamily="@font/pmedium"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="2dp">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/lokation"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mertoyudan"
+                        android:fontFamily="@font/pregular"
+                        android:textSize="12sp"
+                        android:textColor="@color/body"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="08.21"
+                        android:layout_marginLeft="180dp"
+                        android:fontFamily="@font/pregular"
+                        android:textSize="12sp"
+                        android:textColor="@color/body"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconnasigoreng"
+                android:layout_marginLeft="20dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nasi Goreng"
+                    android:fontFamily="@font/pmedium"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="2dp">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/lokation"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mertoyudan"
+                        android:fontFamily="@font/pregular"
+                        android:textSize="12sp"
+                        android:textColor="@color/body"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="08.21"
+                        android:layout_marginLeft="180dp"
+                        android:fontFamily="@font/pregular"
+                        android:textSize="12sp"
+                        android:textColor="@color/body"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconnasigoreng"
+                android:layout_marginLeft="20dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nasi Goreng"
+                    android:fontFamily="@font/pmedium"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="2dp">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/lokation"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mertoyudan"
+                        android:fontFamily="@font/pregular"
+                        android:textSize="12sp"
+                        android:textColor="@color/body"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="08.30"
+                        android:layout_marginLeft="180dp"
+                        android:fontFamily="@font/pregular"
+                        android:textSize="12sp"
+                        android:textColor="@color/body"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconnasigoreng"
+                android:layout_marginLeft="20dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nasi Goreng"
+                    android:fontFamily="@font/pmedium"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="2dp">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/lokation"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mertoyudan"
+                        android:fontFamily="@font/pregular"
+                        android:textSize="12sp"
+                        android:textColor="@color/body"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="08.30"
+                        android:layout_marginLeft="180dp"
+                        android:fontFamily="@font/pregular"
+                        android:textSize="12sp"
+                        android:textColor="@color/body"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Akhir Konten Pesanan Terbaru -->
+
+    </LinearLayout>
+
+</LinearLayout>
